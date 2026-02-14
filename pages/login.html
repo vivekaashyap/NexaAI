@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nexus AI - Login to Access Multi-AI System</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/auth.css" />
+  </head>
+  <body>
+    <div class="cursor" id="cursor"></div>
+    <div id="particles-js"></div>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+
+    <div class="container">
+      <!-- LOGIN SECTION -->
+      <section id="loginSection" class="login-section">
+        <div class="login-card">
+          <div class="login-header">
+            <div class="login-logo">
+              <i class="fas fa-brain"></i>
+            </div>
+            <h1>Welcome to <span class="gradient-text">Nexus AI</span></h1>
+            <p>Login to access the Council of Intelligences</p>
+          </div>
+
+          <div class="demo-credentials">
+            <p><i class="fas fa-info-circle"></i> Demo Credentials:</p>
+            <div>
+              <span class="cred-badge">Email: admin@gmail.com</span>
+              <span class="cred-badge">Password: 1234</span>
+            </div>
+          </div>
+
+          <form id="loginForm" class="login-form">
+            <div class="input-group">
+              <label for="email">Email</label>
+              <div class="input-wrapper">
+                <i class="fas fa-envelope"></i>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Enter your email"
+                  value="admin@gmail.com"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="input-group">
+              <label for="password">Password</label>
+              <div class="input-wrapper">
+                <i class="fas fa-lock"></i>
+                <input
+                  type="password"
+                  id="password"
+                  placeholder="Enter your password"
+                  value="1234"
+                  required
+                />
+                <i class="fas fa-eye password-toggle" id="togglePassword"></i>
+              </div>
+            </div>
+
+            <div class="remember-forgot">
+              <label class="remember">
+                <input type="checkbox" checked /> Remember me
+              </label>
+              <a href="#" class="forgot-link">Forgot password?</a>
+            </div>
+
+            <button type="submit" class="login-btn">
+              <i class="fas fa-arrow-right-to-bracket"></i>
+              Login to Nexus AI
+            </button>
+          </form>
+
+          <div class="signup-link">
+            Don't have an account? <a href="signup.html">Sign up free</a>
+          </div>
+          <div style="text-align: center; margin-top: 1rem">
+            <a
+              href="../index.html"
+              style="color: var(--text-dim); font-size: 0.9rem"
+              >← Back to Home</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- DASHBOARD SECTION (Initially Hidden) -->
+      <section
+        id="dashboardSection"
+        class="dashboard-section"
+        style="display: none"
+      ></section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script type="module" src="../js/main.js"></script>
+    <script type="module" src="../js/auth.js"></script>
+    <script type="module" src="../js/login.js"></script>
+  </body>
+</html>

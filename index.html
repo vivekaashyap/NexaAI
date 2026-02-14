@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nexus AI Council - Where Intelligences Unite</title>
+
+    <!-- Fonts & Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/landing.css" />
+  </head>
+  <body>
+    <!-- Custom Cursor -->
+    <div class="cursor" id="cursor"></div>
+
+    <!-- Background Elements -->
+    <div id="particles-js"></div>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+
+    <div class="container">
+      <!-- Navigation -->
+      <nav class="navbar">
+        <a href="index.html" class="logo">
+          <div class="logo-icon">
+            <i class="fas fa-brain"></i>
+          </div>
+          <div class="logo-text">
+            <h1>Nexus AI</h1>
+            <span>Council of Intelligences</span>
+          </div>
+        </a>
+
+        <div class="nav-links" id="navLinks">
+          <a href="index.html" class="nav-link active">Home</a>
+          <a href="#features" class="nav-link">Council</a>
+          <a href="#capabilities" class="nav-link">Capabilities</a>
+          <a href="#research" class="nav-link">Research</a>
+          <a href="#pricing" class="nav-link">Pricing</a>
+          <a href="pages/login.html" class="nav-button" id="launchAppBtn"
+            >Launch App →</a
+          >
+        </div>
+
+        <div class="menu-toggle" id="menuToggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="hero-content">
+          <div class="badge">
+            <i class="fas fa-robot"></i>
+            <span>Introducing Nexus AI Council v2.0</span>
+          </div>
+
+          <h1>
+            Where <span class="gradient-text">Multiple Intelligences</span
+            ><br />
+            Unite as One
+          </h1>
+
+          <p>
+            Experience the power of 8 specialized AIs working in harmony. From
+            web development to system design, get collaborative answers with
+            real-time ratings and view tracking.
+          </p>
+
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number">8</span>
+              <span class="stat-label">Specialized AIs</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">4.8</span>
+              <span class="stat-label">Avg Rating</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">10K+</span>
+              <span class="stat-label">Questions Solved</span>
+            </div>
+          </div>
+
+          <div class="hero-buttons">
+            <a href="pages/login.html" class="btn btn-primary">
+              <i class="fas fa-rocket"></i>
+              Start Collaborating
+            </a>
+            <a href="#" class="btn btn-secondary" id="watchDemoBtn">
+              <i class="fas fa-play"></i>
+              Watch Demo
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="ai-sphere">
+            <div class="sphere-core"></div>
+            <div class="ai-orbits"></div>
+            <div class="ai-orbits"></div>
+            <div class="ai-orbits"></div>
+
+            <div
+              class="floating-ai ai-1"
+              style="background: linear-gradient(135deg, #6366f1, #8b5cf6)"
+            >
+              <i class="fas fa-code"></i>
+            </div>
+            <div
+              class="floating-ai ai-2"
+              style="background: linear-gradient(135deg, #ec4899, #f59e0b)"
+            >
+              <i class="fas fa-database"></i>
+            </div>
+            <div
+              class="floating-ai ai-3"
+              style="background: linear-gradient(135deg, #10b981, #3b82f6)"
+            >
+              <i class="fas fa-brain"></i>
+            </div>
+            <div
+              class="floating-ai ai-4"
+              style="background: linear-gradient(135deg, #8b5cf6, #ec4899)"
+            >
+              <i class="fas fa-cloud"></i>
+            </div>
+            <div
+              class="floating-ai ai-5"
+              style="background: linear-gradient(135deg, #f59e0b, #ef4444)"
+            >
+              <i class="fas fa-shield"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Features Section -->
+      <section id="features" class="features">
+        <div class="section-header">
+          <h2>Why Choose <span class="gradient-text">Nexus AI</span></h2>
+          <p>Experience the future of collaborative artificial intelligence</p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-users"></i>
+            </div>
+            <h3>Collaborative Intelligence</h3>
+            <p>
+              8 specialized AIs work together on your questions, each
+              contributing their unique expertise for comprehensive answers.
+            </p>
+            <div class="feature-tags">
+              <span>Multi-AI</span>
+              <span>Teamwork</span>
+              <span>Synergy</span>
+            </div>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-star"></i>
+            </div>
+            <h3>Real-Time Ratings</h3>
+            <p>
+              Watch AI ratings update in real-time based on performance. Each
+              answer affects their reputation score.
+            </p>
+            <div class="feature-tags">
+              <span>4.8 Avg</span>
+              <span>Live Updates</span>
+              <span>Transparent</span>
+            </div>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-eye"></i>
+            </div>
+            <h3>View Tracking</h3>
+            <p>
+              Every AI response tracks views, building popularity metrics.
+              Most-viewed answers rise to the top.
+            </p>
+            <div class="feature-tags">
+              <span>10K+ Views</span>
+              <span>Trending</span>
+              <span>Analytics</span>
+            </div>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3>Specialized Expertise</h3>
+            <p>
+              From web development to system design, each AI excels in specific
+              domains with deep knowledge.
+            </p>
+            <div class="feature-tags">
+              <span>8 Domains</span>
+              <span>Deep Knowledge</span>
+              <span>Expert Systems</span>
+            </div>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <h3>Performance Analytics</h3>
+            <p>
+              Track which AI performs best in different categories. Make
+              data-driven decisions.
+            </p>
+            <div class="feature-tags">
+              <span>Leaderboards</span>
+              <span>Metrics</span>
+              <span>Insights</span>
+            </div>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <h3>Enterprise Security</h3>
+            <p>
+              Your data is protected with enterprise-grade encryption and
+              privacy controls.
+            </p>
+            <div class="feature-tags">
+              <span>Encrypted</span>
+              <span>Private</span>
+              <span>Secure</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- AI Showcase -->
+      <section class="ai-showcase">
+        <div class="section-header">
+          <h2>Meet Your <span class="gradient-text">AI Council</span></h2>
+          <p>Eight specialized intelligences ready to collaborate</p>
+        </div>
+
+        <div class="showcase-grid">
+          <div class="showcase-card">
+            <div
+              class="showcase-avatar"
+              style="background: linear-gradient(135deg, #6366f1, #8b5cf6)"
+            >
+              🌐
+            </div>
+            <h4>Devon</h4>
+            <p>Web Development</p>
+            <div class="showcase-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span>4.8</span>
+            </div>
+            <div class="feature-tags" style="justify-content: center">
+              <span>React</span>
+              <span>Vue</span>
+              <span>Angular</span>
+            </div>
+          </div>
+
+          <div class="showcase-card">
+            <div
+              class="showcase-avatar"
+              style="background: linear-gradient(135deg, #10b981, #3b82f6)"
+            >
+              ⚙️
+            </div>
+            <h4>Baxter</h4>
+            <p>Backend & APIs</p>
+            <div class="showcase-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span>4.7</span>
+            </div>
+            <div class="feature-tags" style="justify-content: center">
+              <span>Node.js</span>
+              <span>Python</span>
+              <span>APIs</span>
+            </div>
+          </div>
+
+          <div class="showcase-card">
+            <div
+              class="showcase-avatar"
+              style="background: linear-gradient(135deg, #8b5cf6, #ec4899)"
+            >
+              🧠
+            </div>
+            <h4>Alina</h4>
+            <p>Algorithms & DSA</p>
+            <div class="showcase-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <span>4.9</span>
+            </div>
+            <div class="feature-tags" style="justify-content: center">
+              <span>LeetCode</span>
+              <span>Optimization</span>
+            </div>
+          </div>
+
+          <div class="showcase-card">
+            <div
+              class="showcase-avatar"
+              style="background: linear-gradient(135deg, #f59e0b, #ef4444)"
+            >
+              ☁️
+            </div>
+            <h4>Dex</h4>
+            <p>DevOps & Cloud</p>
+            <div class="showcase-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span>4.6</span>
+            </div>
+            <div class="feature-tags" style="justify-content: center">
+              <span>Docker</span>
+              <span>AWS</span>
+              <span>K8s</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA Section -->
+      <section class="cta">
+        <div class="cta-card">
+          <h2>Ready to Experience<br />Collaborative AI?</h2>
+          <p>Join thousands of developers using Nexus AI Council daily</p>
+          <div class="cta-buttons">
+            <a href="pages/login.html" class="btn btn-primary">
+              <i class="fas fa-rocket"></i>
+              Get Started Free
+            </a>
+            <a href="#" class="btn btn-secondary">
+              <i class="fas fa-calendar"></i>
+              Schedule Demo
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <a href="index.html" class="logo">
+              <div
+                class="logo-icon"
+                style="width: 40px; height: 40px; font-size: 1.2rem"
+              >
+                <i class="fas fa-brain"></i>
+              </div>
+              <div class="logo-text">
+                <h1 style="font-size: 1.2rem">Nexus AI</h1>
+              </div>
+            </a>
+            <p>
+              Revolutionizing how we interact with AI through collaborative
+              intelligence.
+            </p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fab fa-discord"></i></a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h4>Product</h4>
+            <ul>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">API</a></li>
+              <li><a href="#">Documentation</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Press</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Legal</h4>
+            <ul>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Security</a></li>
+              <li><a href="#">Cookies</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; 2024 Nexus AI Council. All rights reserved. | Made with
+            <i class="fas fa-heart" style="color: #ec4899"></i> for the AI
+            community
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script type="module" src="js/main.js"></script>
+    <script type="module" src="js/landing.js"></script>
+  </body>
+</html>

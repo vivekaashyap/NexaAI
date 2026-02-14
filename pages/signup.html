@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nexus AI - Create Your Account</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/auth.css" />
+  </head>
+  <body>
+    <div class="cursor" id="cursor"></div>
+    <div id="particles-js"></div>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+
+    <div class="container">
+      <section class="login-section">
+        <div class="login-card">
+          <div class="login-header">
+            <div class="login-logo">
+              <i class="fas fa-brain"></i>
+            </div>
+            <h1>Create <span class="gradient-text">Account</span></h1>
+            <p>Join the Nexus AI Council</p>
+          </div>
+
+          <form id="signupForm" class="login-form">
+            <div class="input-group">
+              <label for="fullname">Full Name</label>
+              <div class="input-wrapper">
+                <i class="fas fa-user"></i>
+                <input
+                  type="text"
+                  id="fullname"
+                  placeholder="Enter your full name"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="input-group">
+              <label for="email">Email</label>
+              <div class="input-wrapper">
+                <i class="fas fa-envelope"></i>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Enter your email"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="input-group">
+              <label for="password">Password</label>
+              <div class="input-wrapper">
+                <i class="fas fa-lock"></i>
+                <input
+                  type="password"
+                  id="password"
+                  placeholder="Create a password (min. 6 characters)"
+                  required
+                />
+                <i class="fas fa-eye password-toggle" id="togglePassword"></i>
+              </div>
+            </div>
+
+            <div class="input-group">
+              <label for="confirmPassword">Confirm Password</label>
+              <div class="input-wrapper">
+                <i class="fas fa-lock"></i>
+                <input
+                  type="password"
+                  id="confirmPassword"
+                  placeholder="Confirm your password"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="remember-forgot">
+              <label class="remember">
+                <input type="checkbox" required /> I agree to the
+                <a href="#" class="forgot-link">Terms</a> and
+                <a href="#" class="forgot-link">Privacy Policy</a>
+              </label>
+            </div>
+
+            <button type="submit" class="login-btn">
+              <i class="fas fa-user-plus"></i>
+              Create Account
+            </button>
+          </form>
+
+          <div class="signup-link">
+            Already have an account? <a href="login.html">Login</a>
+          </div>
+          <div style="text-align: center; margin-top: 1rem">
+            <a
+              href="../index.html"
+              style="color: var(--text-dim); font-size: 0.9rem"
+              >← Back to Home</a
+            >
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script type="module" src="../js/main.js"></script>
+    <script type="module" src="../js/auth.js"></script>
+    <script type="module" src="../js/signup.js"></script>
+  </body>
+</html>
