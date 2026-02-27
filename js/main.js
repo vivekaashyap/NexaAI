@@ -20,7 +20,7 @@ export function initCursor() {
 // ===== PARTICLES.JS =====
 export function initParticles() {
     if (typeof particlesJS === 'undefined') return;
-    
+
     particlesJS('particles-js', {
         particles: {
             number: { value: 80, density: { enable: true, value_area: 800 } },
@@ -99,4 +99,4 @@ export function initFadeInOnScroll(elements) {
     });
 }
 
-// dffsd
+// dffsdv
